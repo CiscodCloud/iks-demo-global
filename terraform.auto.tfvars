@@ -39,12 +39,12 @@ mgmtcfgsshuser = "iksadmin"
 mastergrpname = "rtp-iks-cluster-01-master-pool"
 masterdesiredsize = 1
 workergrpname = "rtp-iks-cluster-01-worker-pool"
-workerdesiredsize = 2
+workerdesiredsize = 5
 masterinfraname = "rtp-iks-cluster-01-masterinfraname"
 infrapolname = "rtp-iks-cluster-01_infra_config_policy"
 instancetypename = "rtp-iks-cluster-01-master-instance"
 #network params
-timezone = "America/New_York"
+timezone = "Etc/GMT"
 domain_name = "dcv.svpod"
 
 
