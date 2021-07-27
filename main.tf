@@ -216,6 +216,14 @@ output "primary_dns" {
 }
 
 
+variable "primary_ntp" {
+  type = string
+}
+output "primary_ntp" {
+        value = var.primary_ntp
+}
+
+
 
 variable "timezone" {
   type = string
