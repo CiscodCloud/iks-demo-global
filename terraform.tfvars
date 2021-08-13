@@ -1,0 +1,6 @@
+device_name = "198.19.254.33"
+portgroup = "sandpit|IST|demo"
+datastore = "sandpit-ds1"
+vspherecluster = "RTP-Sandpit01"
+resource_pool = "Test_Resource_Pool"
+organization = "dCloud"
