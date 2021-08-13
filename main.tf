@@ -146,7 +146,7 @@ output "instancetypename" {
 }
 variable "device_name" {
   type = string
- dafault ="198.19.254.33"
+ default ="198.19.254.33"
 }
 output "device_name" {
         value = var.device_name
