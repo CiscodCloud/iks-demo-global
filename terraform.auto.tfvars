@@ -50,9 +50,9 @@ domain_name = "dcv.svpod"
 
 
 #All these are params used in Infra setup, capture specifics to each of the env's this is being deployed on
-device_name = "10.200.0.210"
-portgroup = ["Management"]
-datastore = "hx-demo-ds1"
+#device_name = "10.200.0.210"
+#portgroup = ["Management"]
+#datastore = "hx-demo-ds1"
 #vspherecluster = "hx-demo"
 #resource_pool = "Test_Resource_Pool"
 #organization = "default"
