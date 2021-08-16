@@ -15,34 +15,34 @@
 #cloud_api_key_id = ""
 
 #Common workspaces
-ikswsname = "rtp-iks-sp-01"
-globalwsname = "rtp-iks-sp-01-global"
+ikswsname = "rtp-iks-dcloud-01"
+globalwsname = "rtp-iks-dcloud-01-global"
 
 
 #Configurable and to be uploaded based on sandbox env
-clustername = "rtp-iks-sp-01"
-ippool_list = "rtp-iks-sp-01_ippool"
+clustername = "rtp-iks-dcloud-01"
+ippool_list = "rtp-iks-dcloud-01_ippool"
 
 #All these are params used in k8s policy settings
-infra_config_policy = "rtp-iks-sp-01_infra_config_policy"
-ip_pool_policy = "rtp-iks-sp-01_ip_pool_policy"
-masterip_pool_policy = "rtp-iks-sp-01_ip_pool_policy"
-workerip_pool_policy = "rtp-iks-sp-01_ip_pool_policy"
-network_pod = "rtp-iks-sp-01_pod"
-network_service = "rtp-iks-sp-01_network"
+infra_config_policy = "rtp-iks-dcloud-01_infra_config_policy"
+ip_pool_policy = "rtp-iks-dcloud-01_ip_pool_policy"
+masterip_pool_policy = "rtp-iks-dcloud-01_ip_pool_policy"
+workerip_pool_policy = "rtp-iks-dcloud-01_ip_pool_policy"
+network_pod = "rtp-iks-dcloud-01_pod"
+network_service = "rtp-iks-dcloud-01_network"
 k8s_version = "1.19.5"
-k8s_version_name = "rtp-iks-sp-01_1.19.5"
-masterinstance = "rtp-iks-sp-01-master-instance"
+k8s_version_name = "rtp-iks-dcloud-01_1.19.5"
+masterinstance = "rtp-iks-dcloud-01-master-instance"
 mgmtcfgetcd = false
 mgmtcfglbcnt = 3
 mgmtcfgsshuser = "iksadmin"
-mastergrpname = "rtp-iks-sp-01-master-pool"
+mastergrpname = "rtp-iks-dcloud-01-master-pool"
 masterdesiredsize = 1
-workergrpname = "rtp-iks-sp-01-worker-pool"
+workergrpname = "rtp-iks-dcloud-01-worker-pool"
 workerdesiredsize = 5
-masterinfraname = "rtp-iks-sp-01-masterinfraname"
-infrapolname = "rtp-iks-sp-01_infra_config_policy"
-instancetypename = "rtp-iks-sp-01-master-instance"
+masterinfraname = "rtp-iks-dcloud-01-masterinfraname"
+infrapolname = "rtp-iks-dcloud-01_infra_config_policy"
+instancetypename = "rtp-iks-dcloud-01-master-instance"
 #network params
 timezone = "Etc/GMT"
 domain_name = "dcv.svpod"
