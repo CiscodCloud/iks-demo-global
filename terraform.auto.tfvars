@@ -21,17 +21,17 @@ globalwsname = "rtp-iks-demo-01-global"
 
 #Configurable and to be uploaded based on sandbox env
 clustername = "rtp-iks-demo-01"
-ippool_list = "rtp-iks-demo-01_ippool"
+ippool_list = "rtp-iks-demo-01-ippool"
 
 #All these are params used in k8s policy settings
-infra_config_policy = "rtp-iks-demo-01_infra_config_policy"
-ip_pool_policy = "rtp-iks-demo-01_ip_pool_policy"
-masterip_pool_policy = "rtp-iks-demo-01_ip_pool_policy"
-workerip_pool_policy = "rtp-iks-demo-01_ip_pool_policy"
-network_pod = "rtp-iks-demo-01_pod"
-network_service = "rtp-iks-demo-01_network"
+infra_config_policy = "rtp-iks-demo-01-infra-config-policy"
+ip_pool_policy = "rtp-iks-demo-01-ip-pool-policy"
+masterip_pool_policy = "rtp-iks-demo-01-ip-pool-policy"
+workerip_pool_policy = "rtp-iks-demo-01-ip-pool-policy"
+network_pod = "rtp-iks-demo-01-pod"
+network_service = "rtp-iks-demo-01-network"
 k8s_version = "1.19.15"
-k8s_version_name = "rtp-iks-demo-01_1.19.15"
+k8s_version_name = "rtp-iks-demo-01-1.19.15"
 masterinstance = "rtp-iks-demo-01-master-instance"
 mgmtcfgetcd = false
 mgmtcfglbcnt = 3
@@ -41,7 +41,7 @@ masterdesiredsize = 1
 workergrpname = "rtp-iks-demo-01-worker-pool"
 workerdesiredsize = 0
 masterinfraname = "rtp-iks-demo-01-masterinfraname"
-infrapolname = "rtp-iks-demo-01_infra_config_policy"
+infrapolname = "rtp-iks-demo-01-infra-config-policy"
 instancetypename = "rtp-iks-demo-01-master-instance"
 #network params
 timezone = "Etc/GMT"
